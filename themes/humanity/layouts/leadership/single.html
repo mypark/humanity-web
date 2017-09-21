@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>{{ .Params.title }}</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    {{ partial "styles.html" . }}
+  </head>
+
+  <body id="page-top">
+
+    <!-- Header -->
+    {{ partial "header.html" . }}
+
+    <!-- About Section -->
+    <section class="leadership content-section">
+      <div class="container leadership">
+        <div class="row header">
+          <div class="col-lg-10">
+            <h1>{{ .Params.name }}</h1>
+            <h4>{{ .Params.jobTitle }}</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+              {{ .Content }}
+          </div>
+          <div class="col-lg-4 mx-auto">
+            <img class="img-thumbnail bio-pic" src="/img/leadership/{{ .Params.photo }}">
+          </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    {{ partial "footer.html" . }}
+    {{ partial "scripts.html" . }}
+
+  </body>
+
+</html>

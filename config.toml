@@ -1,0 +1,4 @@
+baseURL = "http://humanity-studio.com/"
+languageCode = "en-us"
+title = "HumanityStudio"
+theme = "humanity"
