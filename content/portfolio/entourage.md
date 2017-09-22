@@ -1,8 +1,8 @@
 ---
-title: "Zencredible"
-date: 2017-09-21T12:26:20-04:00
+title: "Entourage"
+date: 2017-09-22T18:01:33-04:00
 draft: true
-photo: "zencredible.jpg"
+photo: "entourage.jpg"
 categories: [ "Web" ]
 ---
 

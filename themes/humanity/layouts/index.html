@@ -92,14 +92,9 @@
       <div class="container col-lg-12 mx-auto">
         <h1>Recent Work</h1>
         <div class="row">
-          <div  class="col-md-4"><img class="img-thumbnail" src="/img/simply.png"></div>
-          <div  class="col-md-4"><img class="img-thumbnail" src="/img/zen.png"></div>
-          <div  class="col-md-4"><img class="img-thumbnail" src="/img/entourage.png"></div>
-        </div>
-        <div class="row">
-          <div  class="col-md-4"><img class="img-thumbnail" src="https://static1.squarespace.com/static/594903b317bffc5dba0392bf/59490d21893fc05780104ec8/59490d471b10e3798d8a5c77/1497959752279/adidas.jpg?format=600w"></div>
-          <div  class="col-md-4"><img class="img-thumbnail" src="https://static1.squarespace.com/static/594903b317bffc5dba0392bf/59490c8c414fb5fe4354fecb/59490caee58c62bbb5b99b83/1497959647691/appcopia.jpg?format=600w"></div>
-          <div  class="col-md-4"><img class="img-thumbnail" src="img/waterplus.jpg"></div>
+          {{ range where .Data.Pages.ByDate "Section" "portfolio" }}
+          <div class="col-md-4"><a href="{{ .Permalink }}"><img class="img-thumbnail" src="/img/portfolio/{{ .Params.Photo }}"></a></div>
+          {{ end }}
         </div>
       </div>
     </section>
