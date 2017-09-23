@@ -1,7 +1,7 @@
 ---
 title: "Zencredible"
 date: 2017-09-21T12:26:20-04:00
-draft: true
+draft: false
 photo: "zencredible.jpg"
 categories: [ "Web" ]
 ---

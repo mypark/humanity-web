@@ -1,7 +1,7 @@
 ---
 title: "AppCopia"
 date: 2017-09-22T18:01:33-04:00
-draft: true
+draft: false
 photo: "appcopia.jpg"
 categories: [ "Mobile" ]
 ---

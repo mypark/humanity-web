@@ -1,7 +1,7 @@
 ---
 title: "Water Plus"
 date: 2017-09-22T18:01:22-04:00
-draft: true
+draft: false
 photo: "water-plus.jpg"
 categories: [ "Product" ]
 ---

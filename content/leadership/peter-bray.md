@@ -1,7 +1,7 @@
 ---
 title: "Peter Bray"
 date: 2017-09-21T13:27:37-04:00
-draft: true
+draft: false
 name: "Peter Bray"
 jobTitle: "Media & Marketing"
 photo: "peter-bray.jpg"
